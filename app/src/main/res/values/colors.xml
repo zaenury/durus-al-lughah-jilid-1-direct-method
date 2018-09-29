@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#0c4543</color>
+    <color name="colorAccent">#3fb0ac</color>
+    <color name="background_utama">#EBEFF2</color>
+
+    <color name="colorSlide">#156890</color>
+    <color name="Background">#156890</color>
+
+    <!--Oval shape on Welcome Activity -->
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+
+    <!-- Background color on fragment layer -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_numbers">#e67e22</color>
+
+    <!-- Warna background untuk tulisan menu kalimat -->
+    <color name="category_family">#379237</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_colors">#8800A0</color>
+
+    <!-- Warna background untuk menu asilah -->
+    <color name="category_phrases">#16AFCA</color>
+
+</resources>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_utama"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.unida.zheezhee.tamrinlughohgontory.MainActivity">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="الإِجَابَةُ"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:fontFamily="@font/usmani2"
+            />
+
+        <TextView
+            android:id="@+id/jawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) هٰذَا مَقْعَدٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/judul"
+            android:layout_gravity="right"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 ) ذٰلِكَ كِتَابٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban1"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 ) نَعَمْ, هٰذِهِ مِكْنَسَةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban2"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+
+        <TextView
+            android:id="@+id/jawaban4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 ) هٰذِهِ مِنَشَّةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban3"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 ) هٰذِهِ خَرِيْطَةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban4"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 ) هٰذِهِ نَافِذَةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban5"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7 ) التَّقْوِيْمُ هُنَاكَ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban6"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 ) لَا, بَلْ هُنَاكَ طَلَّاسَةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban7"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 ) الْأُسْتَاذُ بَيْنَ السَّبُّوْرَةِ وَ الْمَكْتَبِ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban8"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 ) مَاذَا عَلىَ السَّرِيْرِ؟"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban9"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11 ) هُوَ فِيْ الْجَيْبِ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban10"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 ) أَ هٰذِهِ الْمبْرَةُ لَكَ؟"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban11"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13 ) لِمَنْ ذٰلِكَ الْكِتَابُ؟"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban12"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14 ) بَيْنَ السَّاحَةِ وَ الْبُسْتَانِ سُوْرٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban13"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 ) عَلَى الْمَكْتَبِ أَرْبَعَةُ أَقْلَامٍ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban14"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16 ) فِيْ حُجْرَتِيْ مِنَشَّتَانِ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban15"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="17 ) الْعَرَبَةُ فِي الشَّارِعِ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban16"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18 ) سَبُّوْرَةٌ وَ طَلَّاسَتَانِ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban17"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19 ) فِي الْمَدِيْنَةِ مَدَارِسُ كَثِيْرَةٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban18"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 ) فِي الرَّفِّ صُحُوْنٌ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban19"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21 ) لَا, لَيْسَتِ السَّبُّوْرَةُ وَرَاءَهُ بَلْ أَمَامَاهُ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban20"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 ) صَلَاةُ الْمَغْرِبِ ثَلَاثُ رَكَعَاتٍ"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban21"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 ) كَمْ وَلَدًا عَلَى أَرْبَعَةِ مَقَاعِدَ؟"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban22"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+
+        <TextView
+            android:id="@+id/jawaban24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 ) هَلِ الْقَلَمُ لِأُمِّكِ؟"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/jawaban23"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/usmani2"/>
+    </RelativeLayout>
+</ScrollView>

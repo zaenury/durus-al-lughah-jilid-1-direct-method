@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Durus Al-lughah</string>
+    <!-->   Slide 1 title and description-->
+    <string name="slide_1_title">Welcome</string>
+    <string name="slide_1_desc">To Durus Al-lughah Gontory Jilid 1 Direct Method</string>
+
+    <!-->   Slide 2 title and description-->
+    <string name="slide_2_title">Free App</string>
+    <string name="slide_2_desc">Free arabic language education for the world</string>
+
+    <!-->   Slide 3 title and description-->
+    <string name="slide_3_title">Time Saving</string>
+    <string name="slide_3_desc">Learn whenever and wherever</string>
+
+    <!-->   Slide 4 title and description-->
+    <string name="slide_4_title">Strong Memory</string>
+    <string name="slide_4_desc">With pictures, easy to remember</string>
+
+    <!-->   Slide 5 title and description-->
+    <string name="slide_5_title">Fast Learning</string>
+    <string name="slide_5_desc">Simple, fun and easy</string>
+
+    <string name="my_preference">"com.abc.com.Mypref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+
+    <string name="nav_videos">More Videos</string>
+    <string name="nav_about">About</string>
+    <string name="nav_update">Update/Rate</string>
+    <string name="nav_new">What\'s new</string>
+    <string name="navigasi_kategori_2"></string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_developer">Other apps By Developer</string>
+
+    <string name="judul_halaman">الْعَرَبِيَّةُ لِلْمُبْتَدِئِيْنَ   \n
+    ARABIC FOR BEGINNERS
+    </string>
+    <string name="nav_overview">Overview</string>
+    <string name="Offered"><![CDATA[Offered By Amoled & TI UNIDA\n
+                                    VERSION 1.0\n
+                                    Released on Mei 01, 2018]]></string>
+    <string name="link">previous apps are available on <a href="https://play.google.com/store/apps/details?id=com.unida.zheezhee.tamrinlughohgontory">google playstore</a></string>
+</resources>

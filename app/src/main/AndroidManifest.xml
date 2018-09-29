@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.durusallughah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pelajaran1.Main1Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran1.Main1Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran2.Main2Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran2.Main2Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran3.Main3Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran3.Main3Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran4.Main4Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran4.Main4Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran5.Main5Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran5.Main5Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran6.Main6Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran6.Main6Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran7.Main7Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran7.Main7Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran8.Main8Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran8.Main8Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran9.Main9Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran9.Main9Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran10.Main10Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran10.Main10Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran11.Main11Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran11.Main11Activity" />
+        </activity>
+        <activity
+            android:name=".pelajaran12.Main12Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".pelajaran12.Main12Activity" />
+        </activity>
+        <activity
+            android:name=".Latihan"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Latihan" />
+        </activity>
+        <activity
+            android:name=".Overview"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Tentang" />
+        </activity>
+        <activity
+            android:name=".ReverensiVideo"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".ReverensiVideo" />
+        </activity>
+
+        <activity
+            android:name=".Whatsnew"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Whatsnew" />
+        </activity>
+
+        <activity android:name=".About" />
+
+        <activity android:name=".jawaban"
+            android:parentActivityName=".Latihan">
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value=".jawaban" />
+        </activity>
+
+    </application>
+
+</manifest>

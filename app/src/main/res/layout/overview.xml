@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Overview">
+
+    <TextView
+        android:id="@+id/durusullughoh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="DURUS AL-LUGHAH"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welcome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/durusullughoh"
+        android:layout_marginTop="29dp"
+        android:text="          This app takes content from the book of Durus Al-Lughah by KH Imam Zarkasyi (Trimurti): One of the founders of Pondok Modern Darussalam Gontor and KH. Imam Syubani"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome3"
+        android:layout_marginTop="20dp"
+        android:text ="          DURUS AL-LUGHAH is an Arabic textbook used by KMI GONTOR students who prioritize the Direct Method in its initial stages, and use other methods in the next stage."
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/welcome222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="20dp"
+        android:text="          DIRECT METHOD is the way of presenting the foreign language subject matter where the teacher directly uses the foreign language as the language of instruction, and without using the language of the students. If a word is difficult to understand by the students, then the teacher interpreted by using props, demonstrating, describing and others."
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/w1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome222"
+        android:layout_marginTop="20dp"
+        android:text="          It is recommended to learn with users who understand Arabic to make it easier in the learning process"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/w1"
+        android:layout_marginTop="20dp"
+        android:text = "          But this is just another alternative as a medium of learning, which can not replace the real role of books, class and ustadz."
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/welcome33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcome2"
+        android:layout_marginTop="20dp"
+        android:text="          And this app uses DIRECT METHOD, located on the application material page. This application is a development of Durus Al-Lughah Gontory Volume 1 using Grammaric translation and audiolingual"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/welcome33"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/link"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+</RelativeLayout>
+</ScrollView>

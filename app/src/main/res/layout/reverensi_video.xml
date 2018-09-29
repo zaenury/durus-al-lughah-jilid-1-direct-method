@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_utama">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/judul_halaman"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/judul_halaman"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:fontFamily="@font/usmani2"/>
+
+    <ImageView
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/judul_halaman"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img1"
+        android:src="@drawable/satu"
+        android:background="@android:color/white"
+        android:padding="15dp"
+
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img2"
+        android:src="@drawable/dua"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img3"
+        android:src="@drawable/tiga"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img4"
+        android:src="@drawable/empat"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img5"
+        android:src="@drawable/lima"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img6"
+        android:src="@drawable/enam"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img7"
+        android:src="@drawable/tujuh"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img8"
+        android:src="@drawable/delapan"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img9"
+        android:src="@drawable/sembilan"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img10"
+        android:src="@drawable/sepuluh"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img10"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img11"
+        android:src="@drawable/sebelas"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img12"
+        android:src="@drawable/duabelas"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+    <ImageView
+        android:layout_below="@+id/img12"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img13"
+        android:src="@drawable/tigabelas"
+        android:padding="15dp"
+        android:background="@android:color/white"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img13"
+        android:layout_marginTop="20dp"
+        android:text="Speaker: Ustadz Dr. Abdul Hafidz Zaid"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+
+    <TextView
+        android:layout_below="@+id/judul_halaman"
+        android:layout_toRightOf="@id/img1"
+        android:id="@+id/tv_judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:text="الْحَلَقَةُ الْأُوْلَى"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@+id/img1"
+        android:layout_toRightOf="@id/img2"
+        android:id="@+id/tv_judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الثَّانِيَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img2"
+        android:layout_toRightOf="@id/img3"
+        android:id="@+id/tv_judul3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الثَّالِثَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img3"
+        android:layout_toRightOf="@id/img4"
+        android:id="@+id/tv_judul4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الرَّابِعَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img4"
+        android:layout_toRightOf="@id/img5"
+        android:id="@+id/tv_judul5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الْخَامِسَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@+id/img5"
+        android:layout_toRightOf="@id/img6"
+        android:id="@+id/tv_judul6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ السَّادِسَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img6"
+        android:layout_toRightOf="@id/img7"
+        android:id="@+id/tv_judul7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ السَّابِعَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@+id/img7"
+        android:layout_toRightOf="@id/img8"
+        android:id="@+id/tv_judul8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الثَّامِنَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@+id/img8"
+        android:layout_toRightOf="@id/img9"
+        android:id="@+id/tv_judul9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ التَّاسِعَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@+id/img9"
+        android:layout_toRightOf="@id/img10"
+        android:id="@+id/tv_judul10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الْعَاشِرَةُ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img10"
+        android:layout_toRightOf="@id/img11"
+        android:id="@+id/tv_judul11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الْحَادِيَةَ عَشْرَةَ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img11"
+        android:layout_toRightOf="@id/img12"
+        android:id="@+id/tv_judul12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الثَّالِثَةَ عَشْرَةَ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@+id/img12"
+        android:layout_toRightOf="@id/img13"
+        android:id="@+id/tv_judul13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="الْحَلَقَةُ الثَّالِثَةَ عَشْرَةَ"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/usmani2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:layout_below="@id/tv_judul1"
+        android:layout_toRightOf="@id/img2"
+        android:id="@+id/tv_subjudul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul2"
+        android:layout_toRightOf="@id/img2"
+        android:id="@+id/tv_subjudul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second episode"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul3"
+        android:layout_toRightOf="@id/img3"
+        android:id="@+id/tv_subjudul3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul4"
+        android:layout_toRightOf="@id/img4"
+        android:id="@+id/tv_subjudul4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fourth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul5"
+        android:layout_toRightOf="@id/img5"
+        android:id="@+id/tv_subjudul5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fifth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul6"
+        android:layout_toRightOf="@id/img6"
+        android:id="@+id/tv_subjudul6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sixth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul7"
+        android:layout_toRightOf="@id/img7"
+        android:id="@+id/tv_subjudul7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seventh episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul8"
+        android:layout_toRightOf="@id/img8"
+        android:id="@+id/tv_subjudul8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eight episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul9"
+        android:layout_toRightOf="@id/img9"
+        android:id="@+id/tv_subjudul9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ninth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul10"
+        android:layout_toRightOf="@id/img10"
+        android:id="@+id/tv_subjudul10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tenth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul11"
+        android:layout_toRightOf="@id/img11"
+        android:id="@+id/tv_subjudul11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eleventh episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul12"
+        android:layout_toRightOf="@id/img12"
+        android:id="@+id/tv_subjudul12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twelfth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_below="@id/tv_judul13"
+        android:layout_toRightOf="@id/img13"
+        android:id="@+id/tv_subjudul13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thirteenth episode"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+
+    <Button
+        android:id="@+id/watch1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img1"
+        android:layout_toRightOf="@+id/img1"
+        android:text="Watch"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/watch2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img2"
+        android:layout_toRightOf="@+id/img2"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img3"
+        android:layout_toRightOf="@+id/img3"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img4"
+        android:layout_toRightOf="@+id/img4"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img5"
+        android:layout_toRightOf="@+id/img5"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img6"
+        android:layout_toRightOf="@+id/img6"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch7"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img7"
+        android:layout_toRightOf="@+id/img7"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch8"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img8"
+        android:layout_toRightOf="@+id/img8"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch9"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img9"
+        android:layout_toRightOf="@+id/img9"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch10"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img10"
+        android:layout_toRightOf="@+id/img10"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch11"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img11"
+        android:layout_toRightOf="@+id/img11"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch12"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img12"
+        android:layout_toRightOf="@+id/img12"
+        android:text="Watch"
+        android:textSize="11sp" />
+    <Button
+        android:id="@+id/watch13"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img13"
+        android:layout_toRightOf="@+id/img13"
+        android:text="Watch"
+        android:textSize="11sp" />
+</RelativeLayout>
+</ScrollView>

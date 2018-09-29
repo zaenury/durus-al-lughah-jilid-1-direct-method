@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_overview"
+            android:checked="false"
+            android:icon="@drawable/ic_perm_device_information"
+            android:title="@string/nav_overview" />
+        <item
+            android:id="@+id/nav_videos"
+            android:checked="false"
+            android:icon="@drawable/ic_video_library"
+            android:title="@string/nav_videos" />
+        <item
+            android:id="@+id/nav_new"
+            android:checked="false"
+            android:icon="@drawable/ic_library_books"
+            android:title="@string/nav_new" />
+    </group>
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="@string/navigasi_kategori_2">
+        <menu>
+            <item
+                android:id="@+id/nav_update"
+                android:checked="false"
+                android:icon="@drawable/ic_new_releases"
+                android:title="@string/nav_update" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:checked="false"
+                android:icon="@drawable/ic_feedback"
+                android:title="@string/nav_feedback" />
+            <item
+                android:id="@+id/navi_developer"
+                android:checked="false"
+                android:icon="@drawable/ic_about"
+                android:title="@string/nav_developer" />
+            <item
+                android:id="@+id/nav_about"
+                android:checked="false"
+                android:icon="@drawable/ic_info"
+                android:title="@string/nav_about" />
+
+
+
+        </menu>
+    </item>
+
+</menu>

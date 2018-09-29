@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/Background"
+    android:theme="@style/ThemeToolbar">
+
+        <TextView
+            android:id="@+id/text_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="75dp"
+            android:fontFamily="@font/usmani2"
+            android:text="دُرُوْسُ اللُّغَةِ الْعَرَبِيَّةِ"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@android:color/white" />
+
+</android.support.v7.widget.Toolbar>
